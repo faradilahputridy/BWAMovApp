@@ -6,6 +6,12 @@ import android.os.Bundle
 import android.os.Handler
 import com.androfara.bwamovapp.onboarding.OnboardingOneActivity
 
+/*
+    Ini adalah activity pertama yang di run
+    Tidak ada fitur spesial disini
+    Hanya melekukan pending beberapa detik saja
+ */
+
 class SplashScreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
